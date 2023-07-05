@@ -1,0 +1,44 @@
+.todo-container {
+  border: teal 4px solid;
+  border-radius: 12px;
+  height: 165px;
+  width: 270px;
+  padding: 12px 24px 12px;
+}
+
+.todo {
+  width: 200px;
+  height: 18px;
+  border: 1px grey solid;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.todo-title {
+  display: block;
+  width: 200px;
+  height: 25px;
+  border: none;
+}
+
+.button-set {
+  gap: 10px;
+  display: flex;
+  margin-top: 24px;
+}
+
+.todo-delete-button {
+  background-color: white;
+  border: 2px red solid;
+  border-radius: 10px;
+  height: 40px;
+  width: 50%;
+}
+
+.todo-complete-button {
+  background-color: white;
+  border: 2px teal solid;
+  border-radius: 10px;
+  height: 40px;
+  width: 50%;
+}

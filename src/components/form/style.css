@@ -1,0 +1,55 @@
+.add-form {
+  background-color: #eee;
+  border-radius: 12px;
+  height: 50px;
+  margin: 0 auto;
+  padding: 30px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.form-label {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.addTodos {
+  background-color: teal;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  height: 40px;
+  width: 140px;
+  color: white;
+}
+
+.input-group {
+  align-items: center;
+  display: flex;
+}
+
+.input-group,
+.add-form {
+  gap: 20px;
+  align-items: center;
+  display: flex;
+}
+
+.add-input1,
+.add-input2 {
+  height: 40px;
+  width: 240px;
+  border: none;
+  border-radius: 12px;
+}
+
+.add-button {
+  background-color: teal;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  height: 40px;
+  width: 140px;
+  color: white;
+}
